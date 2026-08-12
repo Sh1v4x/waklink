@@ -335,16 +335,17 @@ button {
 }
 
 .card:hover,
-.card:focus-visible { transform: translateY(-8px); }
+.card:focus-within { transform: translateY(-8px); }
 
-.card[disabled] {
+.card--soon {
   cursor: default;
   opacity: 0.55;
 }
 
-.card[disabled]:hover { transform: none; }
+.card--soon:hover { transform: none; }
 
 .card-frame {
+  display: block;
   position: relative;
   border-radius: 16px;
   padding: 3px;
@@ -437,6 +438,29 @@ button {
 }
 
 .card-read { color: var(--cyan); }
+
+/* Le pied de carte porte le téléchargement : hors de l'ancre de lecture. */
+.card-dl {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid rgba(95, 227, 234, 0.32);
+  color: var(--cyan);
+  font-size: 13px;
+  line-height: 1;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.card-dl:hover {
+  background: rgba(95, 227, 234, 0.16);
+  border-color: rgba(95, 227, 234, 0.7);
+  color: #d6fbfd;
+}
 
 .site-footer {
   position: relative;
@@ -661,6 +685,142 @@ button {
 
 .chapter-end .btn-ghost:hover { border-color: rgba(232, 236, 255, 0.45); }
 
+.btn-dl {
+  flex: none;
+  padding: 8px 14px;
+}
+
+.btn-dl .btn-icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+/* ------------------------------------------------------ téléchargement */
+
+body.is-modal { overflow: hidden; }
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(18px, 5vw, 40px);
+}
+
+.modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(3, 4, 14, 0.74);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  animation: veil 0.3s ease both;
+}
+
+.modal-card {
+  position: relative;
+  width: min(430px, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  padding: clamp(26px, 6vw, 38px) clamp(20px, 5vw, 32px);
+  border-radius: 22px;
+  border: 1px solid rgba(95, 227, 234, 0.28);
+  background: linear-gradient(165deg, rgba(12, 15, 40, 0.94), rgba(6, 7, 20, 0.96));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 30px 80px rgba(3, 4, 16, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  animation: riseIn 0.4s ease both;
+}
+
+.modal-kicker {
+  font-size: 10px;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--cyan);
+}
+
+.modal-title {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(17px, 4.2vw, 22px);
+  line-height: 1.25;
+  color: #fdf6e3;
+}
+
+.modal-lede {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--text-dim);
+}
+
+.modal-progress {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 2px;
+}
+
+.modal-progress-track {
+  height: 3px;
+  border-radius: 999px;
+  background: rgba(95, 227, 234, 0.12);
+  overflow: hidden;
+}
+
+.modal-progress-fill {
+  height: 100%;
+  width: 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--violet), var(--cyan));
+  box-shadow: 0 0 12px rgba(95, 227, 234, 0.8);
+  transition: width 0.2s linear;
+}
+
+.modal-progress-label {
+  font-variant-numeric: tabular-nums;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--cyan);
+}
+
+.modal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.modal-actions .btn-ghost {
+  padding: 14px 24px;
+  border-color: rgba(232, 236, 255, 0.2);
+  color: rgba(232, 236, 255, 0.7);
+}
+
+.modal-actions .btn-ghost:hover { border-color: rgba(232, 236, 255, 0.45); }
+
+/* L'anneau reprend le portail : il tourne pendant l'assemblage,
+   vire au rouge si le PDF échoue. */
+.modal[data-phase='running'] .modal-mark {
+  border-top-color: rgba(95, 227, 234, 0.12);
+  animation: spinSlow 1.4s linear infinite;
+}
+
+.modal[data-phase='error'] .modal-mark {
+  border-color: rgba(255, 138, 160, 0.75);
+  box-shadow: 0 0 22px rgba(255, 138, 160, 0.5), inset 0 0 16px rgba(255, 138, 160, 0.3);
+  animation: none;
+}
+
+.modal[data-phase='error'] .modal-kicker { color: #ffb3c0; }
+
 /* ---------------------------------------------------------- transition */
 
 .veil {
@@ -722,7 +882,8 @@ body:not(.is-locked) .gate { display: none; }
 
 .gate-card.shake { animation: shake 0.42s ease both; }
 
-.gate-mark {
+.gate-mark,
+.modal-mark {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -927,7 +1088,12 @@ body:not(.is-locked) .gate { display: none; }
   .card-text { padding: 12px 10px; }
   .card-title { font-size: 13px; }
   .card-meta { margin-top: 3px; font-size: 10px; }
-  .card-foot { font-size: 9px; letter-spacing: 0.1em; }
+  .card-foot { font-size: 9px; letter-spacing: 0.1em; gap: 8px; }
+  .card-dl {
+    width: 22px;
+    height: 22px;
+    font-size: 11px;
+  }
 
   /* La barre du haut doit tenir sans déborder : compteur masqué,
      déconnexion réduite à son icône. */

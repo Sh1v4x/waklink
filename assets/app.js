@@ -29,6 +29,15 @@
     chapterEndTitle: el('chapterEndTitle'),
     nextChapterBtn: el('nextChapterBtn'),
     veil: el('veil'),
+    dlModal: el('dlModal'),
+    dlKicker: el('dlKicker'),
+    dlTitle: el('dlTitle'),
+    dlLede: el('dlLede'),
+    dlProgress: el('dlProgress'),
+    dlFill: el('dlFill'),
+    dlCount: el('dlCount'),
+    dlConfirm: el('dlConfirm'),
+    dlCancel: el('dlCancel'),
   };
 
   const state = {
@@ -93,11 +102,14 @@
     return `#/${encodeURIComponent(series.slug)}/${encodeURIComponent(tome.slug)}`;
   }
 
+  function findEntry(seriesSlug, tomeSlug) {
+    return state.flat.find((e) => e.series.slug === seriesSlug && e.tome.slug === tomeSlug) ?? null;
+  }
+
   function findByRoute(hash) {
     const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
     if (parts.length < 2) return null;
-    const [seriesSlug, tomeSlug] = parts;
-    return state.flat.find((e) => e.series.slug === seriesSlug && e.tome.slug === tomeSlug) ?? null;
+    return findEntry(parts[0], parts[1]);
   }
 
   /* ------------------------------------------------------- bibliothèque */
@@ -105,18 +117,17 @@
   function cardFor(series, tome) {
     const readable = tome.pageCount > 0;
 
-    const card = document.createElement(readable ? 'a' : 'button');
-    card.className = 'card';
-    if (readable) {
-      card.href = routeFor(series, tome);
-      card.setAttribute('aria-label', `Lire ${tome.title} — ${plural(tome.pageCount, 'planche')}`);
-    } else {
-      card.type = 'button';
-      card.disabled = true;
-    }
+    // Article plutôt qu'un lien unique : le pied de carte porte aussi le
+    // bouton de téléchargement, qui ne peut pas vivre dans une ancre.
+    const card = document.createElement('article');
+    card.className = readable ? 'card' : 'card card--soon';
 
-    const frame = document.createElement('div');
+    const frame = document.createElement(readable ? 'a' : 'div');
     frame.className = 'card-frame';
+    if (readable) {
+      frame.href = routeFor(series, tome);
+      frame.setAttribute('aria-label', `Lire ${tome.title} — ${plural(tome.pageCount, 'planche')}`);
+    }
 
     const cover = document.createElement('div');
     cover.className = 'card-cover';
@@ -162,10 +173,21 @@
     status.textContent = tome.status;
     foot.appendChild(status);
     if (readable) {
-      const read = document.createElement('span');
+      const download = document.createElement('button');
+      download.type = 'button';
+      download.className = 'card-dl';
+      download.dataset.action = 'download';
+      download.dataset.series = series.slug;
+      download.dataset.tome = tome.slug;
+      download.title = `Télécharger ${tome.title} en PDF`;
+      download.setAttribute('aria-label', download.title);
+      download.textContent = '⤓';
+      const read = document.createElement('a');
       read.className = 'card-read';
+      read.href = routeFor(series, tome);
       read.textContent = 'Lire →';
-      foot.appendChild(read);
+      read.tabIndex = -1; // le cadre est déjà le lien atteignable au clavier
+      foot.append(download, read);
     }
 
     card.append(frame, foot);
@@ -346,6 +368,153 @@
     }, TRANSITION_MS + 380);
   }
 
+  /* ------------------------------------------------- téléchargement PDF */
+
+  const dl = {
+    entry: null,
+    controller: null,
+    url: null,
+    filename: '',
+    busy: false,
+    lastFocus: null,
+  };
+
+  const megabytes = (bytes) => `${(bytes / 1048576).toFixed(1).replace('.', ',')} Mo`;
+
+  /** Nom de fichier acceptable sur Windows comme ailleurs. */
+  const safeName = (name) => name.replace(/[\\/:*?"<>|]+/g, '-').replace(/\s+/g, ' ').trim();
+
+  function setPhase(phase) {
+    dom.dlModal.dataset.phase = phase;
+  }
+
+  function setDownloadProgress(done, total, bytes) {
+    const ratio = total ? done / total : 0;
+    dom.dlFill.style.width = `${(ratio * 100).toFixed(1)}%`;
+    dom.dlCount.textContent = `${done} / ${total}${bytes ? ` · ${megabytes(bytes)}` : ''}`;
+  }
+
+  function releaseFile() {
+    if (dl.url) URL.revokeObjectURL(dl.url);
+    dl.url = null;
+  }
+
+  function saveFile() {
+    if (!dl.url) return;
+    const link = document.createElement('a');
+    link.href = dl.url;
+    link.download = dl.filename;
+    link.rel = 'noopener';
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+  }
+
+  function showConfirm() {
+    const { tome } = dl.entry;
+    const weight = tome.bytes ? ` · environ ${megabytes(window.WaklinkPdf.estimate(tome.bytes))}` : '';
+    setPhase('confirm');
+    dom.dlKicker.textContent = 'Téléchargement';
+    dom.dlTitle.textContent = tome.title;
+    dom.dlLede.textContent =
+      `${plural(tome.pageCount, 'planche')}${weight}. Le PDF est assemblé par votre navigateur, ` +
+      'sans passer par un serveur : gardez cet onglet ouvert pendant la conversion.';
+    dom.dlProgress.hidden = true;
+    dom.dlConfirm.hidden = false;
+    dom.dlConfirm.textContent = 'Générer le PDF';
+    dom.dlCancel.textContent = 'Annuler';
+  }
+
+  function openDownload(entry) {
+    if (!entry || dl.busy) return;
+    dl.entry = entry;
+    dl.lastFocus = document.activeElement;
+    releaseFile();
+    dom.dlModal.hidden = false;
+    document.body.classList.add('is-modal');
+    showConfirm();
+    dom.dlConfirm.focus();
+  }
+
+  function closeDownload() {
+    dl.controller?.abort();
+    dom.dlModal.hidden = true;
+    document.body.classList.remove('is-modal');
+    releaseFile();
+    dl.entry = null;
+    if (dl.lastFocus?.isConnected) dl.lastFocus.focus();
+    dl.lastFocus = null;
+  }
+
+  async function runDownload() {
+    const { tome } = dl.entry;
+
+    dl.busy = true;
+    dl.controller = new AbortController();
+    releaseFile();
+
+    setPhase('running');
+    dom.dlKicker.textContent = 'Assemblage';
+    dom.dlLede.textContent = 'Conversion des planches, sans quitter votre appareil…';
+    dom.dlProgress.hidden = false;
+    setDownloadProgress(0, tome.pageCount, 0);
+    dom.dlConfirm.hidden = true;
+    dom.dlCancel.textContent = 'Interrompre';
+
+    try {
+      const blob = await window.WaklinkPdf.build(tome.pages, {
+        title: tome.title,
+        signal: dl.controller.signal,
+        onProgress: setDownloadProgress,
+      });
+
+      dl.filename = `${safeName(tome.title)}.pdf`;
+      dl.url = URL.createObjectURL(blob);
+
+      setPhase('done');
+      dom.dlKicker.textContent = 'Portail ouvert';
+      dom.dlLede.textContent = `PDF prêt · ${plural(tome.pageCount, 'planche')} · ${megabytes(blob.size)}`;
+      dom.dlProgress.hidden = true;
+      dom.dlConfirm.hidden = false;
+      dom.dlConfirm.textContent = 'Enregistrer à nouveau';
+      dom.dlCancel.textContent = 'Fermer';
+      dom.dlConfirm.focus();
+      saveFile();
+    } catch (err) {
+      if (dom.dlModal.hidden) return; // modale déjà fermée : plus rien à annoncer
+      if (err?.name === 'AbortError') {
+        showConfirm();
+        dom.dlConfirm.focus();
+      } else {
+        console.error('[Waklink] assemblage PDF impossible :', err);
+        setPhase('error');
+        dom.dlKicker.textContent = 'Échec';
+        dom.dlLede.textContent = err?.message || 'Le PDF n’a pas pu être assemblé.';
+        dom.dlProgress.hidden = true;
+        dom.dlConfirm.hidden = false;
+        dom.dlConfirm.textContent = 'Réessayer';
+        dom.dlCancel.textContent = 'Fermer';
+        dom.dlConfirm.focus();
+      }
+    } finally {
+      dl.busy = false;
+      dl.controller = null;
+    }
+  }
+
+  function onDownloadConfirm() {
+    const phase = dom.dlModal.dataset.phase;
+    if (phase === 'done') saveFile();
+    else if (!dl.busy) runDownload();
+  }
+
+  function onDownloadCancel() {
+    // En cours d'assemblage, « Interrompre » revient à l'écran de départ ;
+    // partout ailleurs, le bouton ferme la modale.
+    if (dl.busy) dl.controller?.abort();
+    else closeDownload();
+  }
+
   /* ------------------------------------------------------------ routage */
 
   function applyRoute() {
@@ -378,7 +547,8 @@
     }, { passive: true });
 
     document.addEventListener('click', (e) => {
-      const action = e.target.closest('[data-action]')?.dataset.action;
+      const trigger = e.target.closest('[data-action]');
+      const action = trigger?.dataset.action;
       if (action === 'home') {
         e.preventDefault();
         goHome();
@@ -386,13 +556,31 @@
         e.preventDefault();
         const next = nextEntry();
         if (next) location.hash = routeFor(next.series, next.tome);
+      } else if (action === 'download') {
+        e.preventDefault();
+        e.stopPropagation();
+        const { series, tome } = trigger.dataset;
+        openDownload(series && tome ? findEntry(series, tome) : state.current);
+      } else if (action === 'dl-close') {
+        closeDownload();
       }
     });
+
+    dom.dlConfirm.addEventListener('click', onDownloadConfirm);
+    dom.dlCancel.addEventListener('click', onDownloadCancel);
 
     // Sur mobile, une tape sur la planche fait réapparaître la barre.
     dom.readerPages.addEventListener('click', () => setBarHidden(!state.barHidden));
 
     document.addEventListener('keydown', (e) => {
+      // La modale capte le clavier tant qu'elle est ouverte.
+      if (!dom.dlModal.hidden) {
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          closeDownload();
+        }
+        return;
+      }
       if (!state.current) return;
       if (e.key === 'Escape') {
         goHome();
@@ -444,6 +632,7 @@
 
   /** Déconnexion : on ferme le lecteur et on vide l'écran. */
   function shutdown() {
+    closeDownload();
     unmountReader();
     clearTimeout(timers.open);
     clearTimeout(timers.veil);

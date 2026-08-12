@@ -99,6 +99,10 @@
           <div class="reader-title" id="readerTitle"></div>
           <div class="reader-meta" id="readerMeta"></div>
         </div>
+        <button class="btn-ghost btn-dl" type="button" data-action="download" aria-label="Télécharger ce tome en PDF">
+          <span class="btn-icon" aria-hidden="true">⤓</span>
+          <span class="btn-label">PDF</span>
+        </button>
         <div class="reader-progress-label" id="readerProgress"></div>
       </div>
       <div class="reader-progress-track"><div class="reader-progress-fill" id="readerProgressFill"></div></div>
@@ -116,8 +120,30 @@
       <h2 class="chapter-end-title" id="chapterEndTitle"></h2>
       <div class="chapter-end-actions">
         <button class="btn-primary" type="button" data-action="next" id="nextChapterBtn">Chapitre suivant →</button>
+        <button class="btn-ghost" type="button" data-action="download">Télécharger en PDF</button>
         <button class="btn-ghost" type="button" data-action="home">Bibliothèque</button>
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- ------------------------------------------------------ téléchargement -->
+<div class="modal" id="dlModal" data-phase="confirm" hidden>
+  <div class="modal-backdrop" data-action="dl-close"></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="dlTitle" aria-describedby="dlLede">
+    <span class="modal-mark" aria-hidden="true"></span>
+    <div class="modal-kicker" id="dlKicker">Téléchargement</div>
+    <h2 class="modal-title" id="dlTitle"></h2>
+    <p class="modal-lede" id="dlLede"></p>
+
+    <div class="modal-progress" id="dlProgress" hidden>
+      <div class="modal-progress-track"><div class="modal-progress-fill" id="dlFill"></div></div>
+      <div class="modal-progress-label" id="dlCount" aria-live="polite"></div>
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn-primary" type="button" id="dlConfirm">Générer le PDF</button>
+      <button class="btn-ghost" type="button" id="dlCancel">Annuler</button>
     </div>
   </div>
 </div>
@@ -137,6 +163,7 @@
   </div>
 </div>
 
+<script src="assets/pdf.js"></script>
 <script src="assets/app.js"></script>
 <script src="assets/auth.js"></script>
 </body>

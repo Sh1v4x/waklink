@@ -145,13 +145,15 @@ async function buildPages(dir, fileNames) {
   return Promise.all(
     fileNames.map(async (name, i) => {
       const abs = join(dir, name);
-      const size = await imageSize(abs);
+      // Le poids sert à annoncer la taille d'un export PDF avant de le lancer.
+      const [size, file] = await Promise.all([imageSize(abs), stat(abs).catch(() => null)]);
       return {
         index: i + 1,
         name,
         src: toUrl(abs),
         width: size?.width ?? null,
         height: size?.height ?? null,
+        bytes: file?.size ?? null,
       };
     })
   );
@@ -168,6 +170,7 @@ async function buildTome(dir, slug, seriesTitle, fileNames) {
     description: info.description ?? null,
     status: info.status ?? (pages.length ? 'Disponible' : 'Prochainement'),
     pageCount: pages.length,
+    bytes: pages.reduce((n, p) => n + (p.bytes ?? 0), 0),
     cover: pages[0] ?? null,
     pages,
   };
@@ -198,6 +201,7 @@ async function buildSeries(dir, slug) {
     description: info.description ?? null,
     tomeCount: tomes.length,
     pageCount: tomes.reduce((n, t) => n + t.pageCount, 0),
+    bytes: tomes.reduce((n, t) => n + t.bytes, 0),
     tomes,
   };
 }
