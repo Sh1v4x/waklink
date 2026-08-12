@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Waklink · Portail des Chroniques du Krosmoz</title>
+<meta name="description" content="Portail de lecture des webtoons du Krosmoz — bibliothèque et lecteur vertical." />
+<meta name="color-scheme" content="dark" />
+<meta name="theme-color" content="#05060f" />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Outfit:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="is-locked">
+
+<!-- champ d'étoiles + portail + particules (décor, non interactif) -->
+<div class="starfield" aria-hidden="true"></div>
+<div class="portal-stage" aria-hidden="true">
+  <div class="portal">
+    <div class="portal-glow"></div>
+    <div class="portal-ring portal-ring--outer"></div>
+    <div class="portal-ring portal-ring--dashed"></div>
+    <div class="portal-conic"></div>
+    <div class="portal-glyphs"></div>
+    <div class="portal-ring portal-ring--bright"></div>
+    <div class="portal-core"></div>
+  </div>
+  <div class="portal-vignette"></div>
+</div>
+<div class="particles" aria-hidden="true"></div>
+
+<!-- --------------------------------------------------------------- porte -->
+<div class="gate" id="gate">
+  <form class="gate-card" id="gateForm" autocomplete="on" novalidate>
+    <span class="gate-mark"></span>
+    <div class="gate-kicker">Accès réservé</div>
+    <h1 class="gate-brand">Waklink</h1>
+    <p class="gate-lede">Le portail ne s’ouvre qu’aux gardiens du Krosmoz.</p>
+
+    <label class="field">
+      <span class="field-label">Identifiant</span>
+      <input id="gateUser" name="username" type="text" autocomplete="username" spellcheck="false" autocapitalize="none" required />
+    </label>
+
+    <label class="field">
+      <span class="field-label">Mot de passe</span>
+      <input id="gatePass" name="password" type="password" autocomplete="current-password" required />
+    </label>
+
+    <label class="checkbox">
+      <input id="gateRemember" type="checkbox" checked />
+      <span>Rester connecté sur cet appareil</span>
+    </label>
+
+    <p class="gate-error" id="gateError" hidden></p>
+
+    <button class="btn-primary gate-submit" id="gateSubmit" type="submit">Ouvrir le portail</button>
+
+    <p class="gate-hint" id="gateHint"></p>
+  </form>
+</div>
+
+<!-- ------------------------------------------------------------ accueil -->
+<div class="shell" id="home">
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <span class="brand-mark"></span>
+      <span class="brand-name">Waklink</span>
+    </a>
+    <span class="topbar-meta" id="libraryCount"></span>
+    <button class="btn-ghost btn-logout" id="logoutBtn" type="button" aria-label="Se déconnecter">
+      <span class="btn-label">Se déconnecter</span>
+      <span class="btn-icon" aria-hidden="true">⏻</span>
+    </button>
+  </header>
+
+  <main class="library">
+    <div class="section-title">
+      <h1>Bibliothèque</h1>
+    </div>
+
+    <div id="libraryContent">
+      <p class="library-loading">Ouverture du portail…</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">Chroniques du Krosmoz · fan project</footer>
+</div>
+
+<!-- ------------------------------------------------------------- lecteur -->
+<div class="reader" id="reader" hidden>
+  <div class="reader-scroll" id="readerScroll">
+    <div class="reader-bar" id="readerBar">
+      <div class="reader-bar-inner">
+        <button class="btn-ghost" type="button" data-action="home">← <span class="btn-label">Accueil</span></button>
+        <div class="reader-titles">
+          <div class="reader-title" id="readerTitle"></div>
+          <div class="reader-meta" id="readerMeta"></div>
+        </div>
+        <div class="reader-progress-label" id="readerProgress"></div>
+      </div>
+      <div class="reader-progress-track"><div class="reader-progress-fill" id="readerProgressFill"></div></div>
+    </div>
+
+    <div class="reader-pages" id="readerPages"></div>
+
+    <div class="reader-loading" id="readerLoading" hidden>
+      <span class="spinner"></span> Ouverture du chapitre
+    </div>
+
+    <div class="chapter-end" id="chapterEnd">
+      <div class="chapter-end-rule"></div>
+      <div class="chapter-end-kicker">Fin du chapitre</div>
+      <h2 class="chapter-end-title" id="chapterEndTitle"></h2>
+      <div class="chapter-end-actions">
+        <button class="btn-primary" type="button" data-action="next" id="nextChapterBtn">Chapitre suivant →</button>
+        <button class="btn-ghost" type="button" data-action="home">Bibliothèque</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- transition portail -->
+<div class="veil" id="veil" hidden>
+  <div class="veil-burst">
+    <div class="portal">
+      <div class="portal-glow"></div>
+      <div class="portal-ring portal-ring--outer"></div>
+      <div class="portal-ring portal-ring--dashed"></div>
+      <div class="portal-conic"></div>
+      <div class="portal-glyphs"></div>
+      <div class="portal-ring portal-ring--bright"></div>
+      <div class="portal-core"></div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
+<script src="assets/auth.js"></script>
+</body>
+</html>

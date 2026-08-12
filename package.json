@@ -1,0 +1,15 @@
+{
+  "name": "waklink",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portail de lecture des webtoons du Krosmoz — site statique pour GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-manifest.mjs",
+    "start": "node scripts/build-manifest.mjs && npx --yes serve . -l 4173",
+    "serve": "npx --yes serve . -l 4173"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

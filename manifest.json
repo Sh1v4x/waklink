@@ -1,0 +1,2688 @@
+{
+  "generatedAt": "2026-08-12T16:04:43.405Z",
+  "seriesCount": 1,
+  "series": [
+    {
+      "slug": "wakfu-la-grande-vague",
+      "title": "Wakfu La Grande Vague",
+      "description": null,
+      "tomeCount": 2,
+      "pageCount": 377,
+      "tomes": [
+        {
+          "slug": "tome-1",
+          "label": "Tome 1",
+          "title": "Wakfu La Grande Vague - Tome 1",
+          "description": null,
+          "status": "Disponible",
+          "pageCount": 198,
+          "cover": {
+            "index": 1,
+            "name": "WakfuGrandeVagueTome1-001.webp",
+            "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-001.webp",
+            "width": 1200,
+            "height": 1878
+          },
+          "pages": [
+            {
+              "index": 1,
+              "name": "WakfuGrandeVagueTome1-001.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-001.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 2,
+              "name": "WakfuGrandeVagueTome1-002.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-002.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 3,
+              "name": "WakfuGrandeVagueTome1-003.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-003.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 4,
+              "name": "WakfuGrandeVagueTome1-004.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-004.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 5,
+              "name": "WakfuGrandeVagueTome1-005.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-005.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 6,
+              "name": "WakfuGrandeVagueTome1-006.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-006.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 7,
+              "name": "WakfuGrandeVagueTome1-007.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-007.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 8,
+              "name": "WakfuGrandeVagueTome1-008.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-008.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 9,
+              "name": "WakfuGrandeVagueTome1-009.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-009.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 10,
+              "name": "WakfuGrandeVagueTome1-010.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-010.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 11,
+              "name": "WakfuGrandeVagueTome1-011.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-011.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 12,
+              "name": "WakfuGrandeVagueTome1-012.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-012.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 13,
+              "name": "WakfuGrandeVagueTome1-013.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-013.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 14,
+              "name": "WakfuGrandeVagueTome1-014.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-014.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 15,
+              "name": "WakfuGrandeVagueTome1-015.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-015.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 16,
+              "name": "WakfuGrandeVagueTome1-016.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-016.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 17,
+              "name": "WakfuGrandeVagueTome1-017.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-017.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 18,
+              "name": "WakfuGrandeVagueTome1-018.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-018.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 19,
+              "name": "WakfuGrandeVagueTome1-019.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-019.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 20,
+              "name": "WakfuGrandeVagueTome1-020.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-020.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 21,
+              "name": "WakfuGrandeVagueTome1-021.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-021.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 22,
+              "name": "WakfuGrandeVagueTome1-022.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-022.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 23,
+              "name": "WakfuGrandeVagueTome1-023.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-023.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 24,
+              "name": "WakfuGrandeVagueTome1-024.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-024.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 25,
+              "name": "WakfuGrandeVagueTome1-025.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-025.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 26,
+              "name": "WakfuGrandeVagueTome1-026.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-026.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 27,
+              "name": "WakfuGrandeVagueTome1-027.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-027.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 28,
+              "name": "WakfuGrandeVagueTome1-028.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-028.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 29,
+              "name": "WakfuGrandeVagueTome1-029.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-029.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 30,
+              "name": "WakfuGrandeVagueTome1-030.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-030.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 31,
+              "name": "WakfuGrandeVagueTome1-031.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-031.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 32,
+              "name": "WakfuGrandeVagueTome1-032.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-032.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 33,
+              "name": "WakfuGrandeVagueTome1-033.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-033.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 34,
+              "name": "WakfuGrandeVagueTome1-034.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-034.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 35,
+              "name": "WakfuGrandeVagueTome1-035.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-035.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 36,
+              "name": "WakfuGrandeVagueTome1-036.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-036.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 37,
+              "name": "WakfuGrandeVagueTome1-037.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-037.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 38,
+              "name": "WakfuGrandeVagueTome1-038.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-038.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 39,
+              "name": "WakfuGrandeVagueTome1-039.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-039.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 40,
+              "name": "WakfuGrandeVagueTome1-040.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-040.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 41,
+              "name": "WakfuGrandeVagueTome1-041.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-041.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 42,
+              "name": "WakfuGrandeVagueTome1-042.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-042.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 43,
+              "name": "WakfuGrandeVagueTome1-043.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-043.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 44,
+              "name": "WakfuGrandeVagueTome1-044.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-044.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 45,
+              "name": "WakfuGrandeVagueTome1-045.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-045.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 46,
+              "name": "WakfuGrandeVagueTome1-046.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-046.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 47,
+              "name": "WakfuGrandeVagueTome1-047.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-047.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 48,
+              "name": "WakfuGrandeVagueTome1-048.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-048.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 49,
+              "name": "WakfuGrandeVagueTome1-049.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-049.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 50,
+              "name": "WakfuGrandeVagueTome1-050.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-050.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 51,
+              "name": "WakfuGrandeVagueTome1-051.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-051.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 52,
+              "name": "WakfuGrandeVagueTome1-052.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-052.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 53,
+              "name": "WakfuGrandeVagueTome1-053.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-053.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 54,
+              "name": "WakfuGrandeVagueTome1-054.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-054.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 55,
+              "name": "WakfuGrandeVagueTome1-055.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-055.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 56,
+              "name": "WakfuGrandeVagueTome1-056.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-056.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 57,
+              "name": "WakfuGrandeVagueTome1-057.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-057.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 58,
+              "name": "WakfuGrandeVagueTome1-058.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-058.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 59,
+              "name": "WakfuGrandeVagueTome1-059.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-059.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 60,
+              "name": "WakfuGrandeVagueTome1-060.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-060.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 61,
+              "name": "WakfuGrandeVagueTome1-061.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-061.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 62,
+              "name": "WakfuGrandeVagueTome1-062.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-062.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 63,
+              "name": "WakfuGrandeVagueTome1-063.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-063.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 64,
+              "name": "WakfuGrandeVagueTome1-064.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-064.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 65,
+              "name": "WakfuGrandeVagueTome1-065.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-065.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 66,
+              "name": "WakfuGrandeVagueTome1-066.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-066.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 67,
+              "name": "WakfuGrandeVagueTome1-067.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-067.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 68,
+              "name": "WakfuGrandeVagueTome1-068.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-068.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 69,
+              "name": "WakfuGrandeVagueTome1-069.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-069.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 70,
+              "name": "WakfuGrandeVagueTome1-070.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-070.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 71,
+              "name": "WakfuGrandeVagueTome1-071.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-071.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 72,
+              "name": "WakfuGrandeVagueTome1-072.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-072.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 73,
+              "name": "WakfuGrandeVagueTome1-073.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-073.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 74,
+              "name": "WakfuGrandeVagueTome1-074.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-074.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 75,
+              "name": "WakfuGrandeVagueTome1-075.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-075.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 76,
+              "name": "WakfuGrandeVagueTome1-076.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-076.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 77,
+              "name": "WakfuGrandeVagueTome1-077.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-077.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 78,
+              "name": "WakfuGrandeVagueTome1-078.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-078.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 79,
+              "name": "WakfuGrandeVagueTome1-079.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-079.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 80,
+              "name": "WakfuGrandeVagueTome1-080.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-080.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 81,
+              "name": "WakfuGrandeVagueTome1-081.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-081.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 82,
+              "name": "WakfuGrandeVagueTome1-082.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-082.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 83,
+              "name": "WakfuGrandeVagueTome1-083.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-083.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 84,
+              "name": "WakfuGrandeVagueTome1-084.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-084.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 85,
+              "name": "WakfuGrandeVagueTome1-085.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-085.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 86,
+              "name": "WakfuGrandeVagueTome1-086.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-086.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 87,
+              "name": "WakfuGrandeVagueTome1-087.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-087.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 88,
+              "name": "WakfuGrandeVagueTome1-088.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-088.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 89,
+              "name": "WakfuGrandeVagueTome1-089.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-089.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 90,
+              "name": "WakfuGrandeVagueTome1-090.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-090.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 91,
+              "name": "WakfuGrandeVagueTome1-091.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-091.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 92,
+              "name": "WakfuGrandeVagueTome1-092.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-092.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 93,
+              "name": "WakfuGrandeVagueTome1-093.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-093.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 94,
+              "name": "WakfuGrandeVagueTome1-094.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-094.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 95,
+              "name": "WakfuGrandeVagueTome1-095.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-095.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 96,
+              "name": "WakfuGrandeVagueTome1-096.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-096.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 97,
+              "name": "WakfuGrandeVagueTome1-097.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-097.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 98,
+              "name": "WakfuGrandeVagueTome1-098.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-098.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 99,
+              "name": "WakfuGrandeVagueTome1-099.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-099.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 100,
+              "name": "WakfuGrandeVagueTome1-100.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-100.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 101,
+              "name": "WakfuGrandeVagueTome1-101.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-101.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 102,
+              "name": "WakfuGrandeVagueTome1-102.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-102.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 103,
+              "name": "WakfuGrandeVagueTome1-103.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-103.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 104,
+              "name": "WakfuGrandeVagueTome1-104.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-104.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 105,
+              "name": "WakfuGrandeVagueTome1-105.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-105.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 106,
+              "name": "WakfuGrandeVagueTome1-106.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-106.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 107,
+              "name": "WakfuGrandeVagueTome1-107.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-107.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 108,
+              "name": "WakfuGrandeVagueTome1-108.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-108.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 109,
+              "name": "WakfuGrandeVagueTome1-109.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-109.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 110,
+              "name": "WakfuGrandeVagueTome1-110.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-110.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 111,
+              "name": "WakfuGrandeVagueTome1-111.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-111.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 112,
+              "name": "WakfuGrandeVagueTome1-112.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-112.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 113,
+              "name": "WakfuGrandeVagueTome1-113.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-113.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 114,
+              "name": "WakfuGrandeVagueTome1-114.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-114.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 115,
+              "name": "WakfuGrandeVagueTome1-115.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-115.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 116,
+              "name": "WakfuGrandeVagueTome1-116.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-116.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 117,
+              "name": "WakfuGrandeVagueTome1-117.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-117.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 118,
+              "name": "WakfuGrandeVagueTome1-118.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-118.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 119,
+              "name": "WakfuGrandeVagueTome1-119.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-119.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 120,
+              "name": "WakfuGrandeVagueTome1-120.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-120.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 121,
+              "name": "WakfuGrandeVagueTome1-121.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-121.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 122,
+              "name": "WakfuGrandeVagueTome1-122.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-122.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 123,
+              "name": "WakfuGrandeVagueTome1-123.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-123.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 124,
+              "name": "WakfuGrandeVagueTome1-124.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-124.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 125,
+              "name": "WakfuGrandeVagueTome1-125.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-125.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 126,
+              "name": "WakfuGrandeVagueTome1-126.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-126.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 127,
+              "name": "WakfuGrandeVagueTome1-127.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-127.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 128,
+              "name": "WakfuGrandeVagueTome1-128.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-128.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 129,
+              "name": "WakfuGrandeVagueTome1-129.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-129.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 130,
+              "name": "WakfuGrandeVagueTome1-130.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-130.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 131,
+              "name": "WakfuGrandeVagueTome1-131.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-131.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 132,
+              "name": "WakfuGrandeVagueTome1-132.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-132.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 133,
+              "name": "WakfuGrandeVagueTome1-133.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-133.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 134,
+              "name": "WakfuGrandeVagueTome1-134.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-134.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 135,
+              "name": "WakfuGrandeVagueTome1-135.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-135.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 136,
+              "name": "WakfuGrandeVagueTome1-136.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-136.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 137,
+              "name": "WakfuGrandeVagueTome1-137.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-137.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 138,
+              "name": "WakfuGrandeVagueTome1-138.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-138.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 139,
+              "name": "WakfuGrandeVagueTome1-139.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-139.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 140,
+              "name": "WakfuGrandeVagueTome1-140.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-140.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 141,
+              "name": "WakfuGrandeVagueTome1-141.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-141.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 142,
+              "name": "WakfuGrandeVagueTome1-142.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-142.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 143,
+              "name": "WakfuGrandeVagueTome1-143.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-143.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 144,
+              "name": "WakfuGrandeVagueTome1-144.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-144.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 145,
+              "name": "WakfuGrandeVagueTome1-145.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-145.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 146,
+              "name": "WakfuGrandeVagueTome1-146.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-146.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 147,
+              "name": "WakfuGrandeVagueTome1-147.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-147.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 148,
+              "name": "WakfuGrandeVagueTome1-148.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-148.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 149,
+              "name": "WakfuGrandeVagueTome1-149.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-149.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 150,
+              "name": "WakfuGrandeVagueTome1-150.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-150.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 151,
+              "name": "WakfuGrandeVagueTome1-151.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-151.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 152,
+              "name": "WakfuGrandeVagueTome1-152.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-152.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 153,
+              "name": "WakfuGrandeVagueTome1-153.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-153.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 154,
+              "name": "WakfuGrandeVagueTome1-154.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-154.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 155,
+              "name": "WakfuGrandeVagueTome1-155.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-155.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 156,
+              "name": "WakfuGrandeVagueTome1-156.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-156.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 157,
+              "name": "WakfuGrandeVagueTome1-157.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-157.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 158,
+              "name": "WakfuGrandeVagueTome1-158.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-158.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 159,
+              "name": "WakfuGrandeVagueTome1-159.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-159.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 160,
+              "name": "WakfuGrandeVagueTome1-160.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-160.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 161,
+              "name": "WakfuGrandeVagueTome1-161.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-161.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 162,
+              "name": "WakfuGrandeVagueTome1-162.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-162.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 163,
+              "name": "WakfuGrandeVagueTome1-163.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-163.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 164,
+              "name": "WakfuGrandeVagueTome1-164.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-164.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 165,
+              "name": "WakfuGrandeVagueTome1-165.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-165.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 166,
+              "name": "WakfuGrandeVagueTome1-166.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-166.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 167,
+              "name": "WakfuGrandeVagueTome1-167.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-167.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 168,
+              "name": "WakfuGrandeVagueTome1-168.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-168.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 169,
+              "name": "WakfuGrandeVagueTome1-169.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-169.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 170,
+              "name": "WakfuGrandeVagueTome1-170.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-170.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 171,
+              "name": "WakfuGrandeVagueTome1-171.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-171.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 172,
+              "name": "WakfuGrandeVagueTome1-172.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-172.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 173,
+              "name": "WakfuGrandeVagueTome1-173.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-173.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 174,
+              "name": "WakfuGrandeVagueTome1-174.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-174.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 175,
+              "name": "WakfuGrandeVagueTome1-175.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-175.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 176,
+              "name": "WakfuGrandeVagueTome1-176.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-176.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 177,
+              "name": "WakfuGrandeVagueTome1-177.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-177.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 178,
+              "name": "WakfuGrandeVagueTome1-178.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-178.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 179,
+              "name": "WakfuGrandeVagueTome1-179.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-179.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 180,
+              "name": "WakfuGrandeVagueTome1-180.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-180.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 181,
+              "name": "WakfuGrandeVagueTome1-181.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-181.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 182,
+              "name": "WakfuGrandeVagueTome1-182.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-182.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 183,
+              "name": "WakfuGrandeVagueTome1-183.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-183.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 184,
+              "name": "WakfuGrandeVagueTome1-184.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-184.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 185,
+              "name": "WakfuGrandeVagueTome1-185.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-185.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 186,
+              "name": "WakfuGrandeVagueTome1-186.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-186.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 187,
+              "name": "WakfuGrandeVagueTome1-187.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-187.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 188,
+              "name": "WakfuGrandeVagueTome1-188.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-188.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 189,
+              "name": "WakfuGrandeVagueTome1-189.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-189.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 190,
+              "name": "WakfuGrandeVagueTome1-190.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-190.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 191,
+              "name": "WakfuGrandeVagueTome1-191.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-191.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 192,
+              "name": "WakfuGrandeVagueTome1-192.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-192.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 193,
+              "name": "WakfuGrandeVagueTome1-193.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-193.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 194,
+              "name": "WakfuGrandeVagueTome1-194.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-194.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 195,
+              "name": "WakfuGrandeVagueTome1-195.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-195.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 196,
+              "name": "WakfuGrandeVagueTome1-196.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-196.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 197,
+              "name": "WakfuGrandeVagueTome1-197.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-197.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 198,
+              "name": "WakfuGrandeVagueTome1-198.webp",
+              "src": "media/wakfu-la-grande-vague/tome-1/WakfuGrandeVagueTome1-198.webp",
+              "width": 1200,
+              "height": 1878
+            }
+          ]
+        },
+        {
+          "slug": "tome-2",
+          "label": "Tome 2",
+          "title": "Wakfu La Grande Vague - Tome 2",
+          "description": null,
+          "status": "Disponible",
+          "pageCount": 179,
+          "cover": {
+            "index": 1,
+            "name": "WakfuGrandeVagueTome2-001.webp",
+            "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-001.webp",
+            "width": 1200,
+            "height": 1878
+          },
+          "pages": [
+            {
+              "index": 1,
+              "name": "WakfuGrandeVagueTome2-001.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-001.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 2,
+              "name": "WakfuGrandeVagueTome2-002.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-002.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 3,
+              "name": "WakfuGrandeVagueTome2-003.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-003.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 4,
+              "name": "WakfuGrandeVagueTome2-004.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-004.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 5,
+              "name": "WakfuGrandeVagueTome2-005.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-005.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 6,
+              "name": "WakfuGrandeVagueTome2-006.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-006.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 7,
+              "name": "WakfuGrandeVagueTome2-007.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-007.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 8,
+              "name": "WakfuGrandeVagueTome2-008.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-008.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 9,
+              "name": "WakfuGrandeVagueTome2-009.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-009.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 10,
+              "name": "WakfuGrandeVagueTome2-010.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-010.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 11,
+              "name": "WakfuGrandeVagueTome2-011.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-011.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 12,
+              "name": "WakfuGrandeVagueTome2-012.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-012.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 13,
+              "name": "WakfuGrandeVagueTome2-013.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-013.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 14,
+              "name": "WakfuGrandeVagueTome2-014.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-014.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 15,
+              "name": "WakfuGrandeVagueTome2-015.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-015.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 16,
+              "name": "WakfuGrandeVagueTome2-016.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-016.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 17,
+              "name": "WakfuGrandeVagueTome2-017.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-017.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 18,
+              "name": "WakfuGrandeVagueTome2-018.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-018.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 19,
+              "name": "WakfuGrandeVagueTome2-019.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-019.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 20,
+              "name": "WakfuGrandeVagueTome2-020.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-020.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 21,
+              "name": "WakfuGrandeVagueTome2-021.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-021.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 22,
+              "name": "WakfuGrandeVagueTome2-022.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-022.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 23,
+              "name": "WakfuGrandeVagueTome2-023.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-023.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 24,
+              "name": "WakfuGrandeVagueTome2-024.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-024.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 25,
+              "name": "WakfuGrandeVagueTome2-025.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-025.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 26,
+              "name": "WakfuGrandeVagueTome2-026.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-026.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 27,
+              "name": "WakfuGrandeVagueTome2-027.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-027.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 28,
+              "name": "WakfuGrandeVagueTome2-028.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-028.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 29,
+              "name": "WakfuGrandeVagueTome2-029.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-029.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 30,
+              "name": "WakfuGrandeVagueTome2-030.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-030.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 31,
+              "name": "WakfuGrandeVagueTome2-031.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-031.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 32,
+              "name": "WakfuGrandeVagueTome2-032.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-032.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 33,
+              "name": "WakfuGrandeVagueTome2-033.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-033.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 34,
+              "name": "WakfuGrandeVagueTome2-034.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-034.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 35,
+              "name": "WakfuGrandeVagueTome2-035.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-035.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 36,
+              "name": "WakfuGrandeVagueTome2-036.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-036.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 37,
+              "name": "WakfuGrandeVagueTome2-037.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-037.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 38,
+              "name": "WakfuGrandeVagueTome2-038.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-038.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 39,
+              "name": "WakfuGrandeVagueTome2-039.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-039.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 40,
+              "name": "WakfuGrandeVagueTome2-040.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-040.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 41,
+              "name": "WakfuGrandeVagueTome2-041.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-041.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 42,
+              "name": "WakfuGrandeVagueTome2-042.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-042.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 43,
+              "name": "WakfuGrandeVagueTome2-043.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-043.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 44,
+              "name": "WakfuGrandeVagueTome2-044.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-044.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 45,
+              "name": "WakfuGrandeVagueTome2-045.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-045.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 46,
+              "name": "WakfuGrandeVagueTome2-046.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-046.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 47,
+              "name": "WakfuGrandeVagueTome2-047.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-047.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 48,
+              "name": "WakfuGrandeVagueTome2-048.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-048.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 49,
+              "name": "WakfuGrandeVagueTome2-049.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-049.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 50,
+              "name": "WakfuGrandeVagueTome2-050.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-050.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 51,
+              "name": "WakfuGrandeVagueTome2-051.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-051.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 52,
+              "name": "WakfuGrandeVagueTome2-052.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-052.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 53,
+              "name": "WakfuGrandeVagueTome2-053.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-053.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 54,
+              "name": "WakfuGrandeVagueTome2-054.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-054.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 55,
+              "name": "WakfuGrandeVagueTome2-055.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-055.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 56,
+              "name": "WakfuGrandeVagueTome2-056.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-056.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 57,
+              "name": "WakfuGrandeVagueTome2-057.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-057.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 58,
+              "name": "WakfuGrandeVagueTome2-058.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-058.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 59,
+              "name": "WakfuGrandeVagueTome2-059.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-059.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 60,
+              "name": "WakfuGrandeVagueTome2-060.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-060.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 61,
+              "name": "WakfuGrandeVagueTome2-061.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-061.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 62,
+              "name": "WakfuGrandeVagueTome2-062.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-062.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 63,
+              "name": "WakfuGrandeVagueTome2-063.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-063.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 64,
+              "name": "WakfuGrandeVagueTome2-064.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-064.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 65,
+              "name": "WakfuGrandeVagueTome2-065.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-065.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 66,
+              "name": "WakfuGrandeVagueTome2-066.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-066.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 67,
+              "name": "WakfuGrandeVagueTome2-067.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-067.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 68,
+              "name": "WakfuGrandeVagueTome2-068.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-068.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 69,
+              "name": "WakfuGrandeVagueTome2-069.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-069.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 70,
+              "name": "WakfuGrandeVagueTome2-070.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-070.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 71,
+              "name": "WakfuGrandeVagueTome2-071.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-071.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 72,
+              "name": "WakfuGrandeVagueTome2-072.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-072.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 73,
+              "name": "WakfuGrandeVagueTome2-073.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-073.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 74,
+              "name": "WakfuGrandeVagueTome2-074.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-074.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 75,
+              "name": "WakfuGrandeVagueTome2-075.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-075.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 76,
+              "name": "WakfuGrandeVagueTome2-076.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-076.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 77,
+              "name": "WakfuGrandeVagueTome2-077.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-077.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 78,
+              "name": "WakfuGrandeVagueTome2-078.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-078.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 79,
+              "name": "WakfuGrandeVagueTome2-079.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-079.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 80,
+              "name": "WakfuGrandeVagueTome2-080.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-080.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 81,
+              "name": "WakfuGrandeVagueTome2-081.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-081.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 82,
+              "name": "WakfuGrandeVagueTome2-082.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-082.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 83,
+              "name": "WakfuGrandeVagueTome2-083.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-083.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 84,
+              "name": "WakfuGrandeVagueTome2-084.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-084.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 85,
+              "name": "WakfuGrandeVagueTome2-085.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-085.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 86,
+              "name": "WakfuGrandeVagueTome2-086.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-086.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 87,
+              "name": "WakfuGrandeVagueTome2-087.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-087.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 88,
+              "name": "WakfuGrandeVagueTome2-088.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-088.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 89,
+              "name": "WakfuGrandeVagueTome2-089.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-089.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 90,
+              "name": "WakfuGrandeVagueTome2-090.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-090.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 91,
+              "name": "WakfuGrandeVagueTome2-091.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-091.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 92,
+              "name": "WakfuGrandeVagueTome2-092.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-092.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 93,
+              "name": "WakfuGrandeVagueTome2-093.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-093.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 94,
+              "name": "WakfuGrandeVagueTome2-094.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-094.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 95,
+              "name": "WakfuGrandeVagueTome2-095.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-095.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 96,
+              "name": "WakfuGrandeVagueTome2-096.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-096.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 97,
+              "name": "WakfuGrandeVagueTome2-097.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-097.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 98,
+              "name": "WakfuGrandeVagueTome2-098.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-098.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 99,
+              "name": "WakfuGrandeVagueTome2-099.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-099.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 100,
+              "name": "WakfuGrandeVagueTome2-100.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-100.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 101,
+              "name": "WakfuGrandeVagueTome2-101.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-101.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 102,
+              "name": "WakfuGrandeVagueTome2-102.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-102.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 103,
+              "name": "WakfuGrandeVagueTome2-103.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-103.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 104,
+              "name": "WakfuGrandeVagueTome2-104.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-104.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 105,
+              "name": "WakfuGrandeVagueTome2-105.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-105.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 106,
+              "name": "WakfuGrandeVagueTome2-106.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-106.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 107,
+              "name": "WakfuGrandeVagueTome2-107.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-107.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 108,
+              "name": "WakfuGrandeVagueTome2-108.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-108.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 109,
+              "name": "WakfuGrandeVagueTome2-109.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-109.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 110,
+              "name": "WakfuGrandeVagueTome2-110.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-110.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 111,
+              "name": "WakfuGrandeVagueTome2-111.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-111.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 112,
+              "name": "WakfuGrandeVagueTome2-112.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-112.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 113,
+              "name": "WakfuGrandeVagueTome2-113.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-113.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 114,
+              "name": "WakfuGrandeVagueTome2-114.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-114.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 115,
+              "name": "WakfuGrandeVagueTome2-115.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-115.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 116,
+              "name": "WakfuGrandeVagueTome2-116.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-116.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 117,
+              "name": "WakfuGrandeVagueTome2-117.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-117.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 118,
+              "name": "WakfuGrandeVagueTome2-118.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-118.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 119,
+              "name": "WakfuGrandeVagueTome2-119.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-119.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 120,
+              "name": "WakfuGrandeVagueTome2-120.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-120.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 121,
+              "name": "WakfuGrandeVagueTome2-121.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-121.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 122,
+              "name": "WakfuGrandeVagueTome2-122.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-122.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 123,
+              "name": "WakfuGrandeVagueTome2-123.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-123.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 124,
+              "name": "WakfuGrandeVagueTome2-124.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-124.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 125,
+              "name": "WakfuGrandeVagueTome2-125.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-125.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 126,
+              "name": "WakfuGrandeVagueTome2-126.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-126.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 127,
+              "name": "WakfuGrandeVagueTome2-127.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-127.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 128,
+              "name": "WakfuGrandeVagueTome2-128.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-128.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 129,
+              "name": "WakfuGrandeVagueTome2-129.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-129.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 130,
+              "name": "WakfuGrandeVagueTome2-130.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-130.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 131,
+              "name": "WakfuGrandeVagueTome2-131.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-131.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 132,
+              "name": "WakfuGrandeVagueTome2-132.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-132.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 133,
+              "name": "WakfuGrandeVagueTome2-133.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-133.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 134,
+              "name": "WakfuGrandeVagueTome2-134.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-134.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 135,
+              "name": "WakfuGrandeVagueTome2-135.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-135.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 136,
+              "name": "WakfuGrandeVagueTome2-136.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-136.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 137,
+              "name": "WakfuGrandeVagueTome2-137.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-137.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 138,
+              "name": "WakfuGrandeVagueTome2-138.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-138.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 139,
+              "name": "WakfuGrandeVagueTome2-139.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-139.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 140,
+              "name": "WakfuGrandeVagueTome2-140.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-140.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 141,
+              "name": "WakfuGrandeVagueTome2-141.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-141.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 142,
+              "name": "WakfuGrandeVagueTome2-142.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-142.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 143,
+              "name": "WakfuGrandeVagueTome2-143.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-143.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 144,
+              "name": "WakfuGrandeVagueTome2-144.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-144.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 145,
+              "name": "WakfuGrandeVagueTome2-145.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-145.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 146,
+              "name": "WakfuGrandeVagueTome2-146.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-146.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 147,
+              "name": "WakfuGrandeVagueTome2-147.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-147.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 148,
+              "name": "WakfuGrandeVagueTome2-148.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-148.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 149,
+              "name": "WakfuGrandeVagueTome2-149.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-149.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 150,
+              "name": "WakfuGrandeVagueTome2-150.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-150.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 151,
+              "name": "WakfuGrandeVagueTome2-151.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-151.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 152,
+              "name": "WakfuGrandeVagueTome2-152.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-152.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 153,
+              "name": "WakfuGrandeVagueTome2-153.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-153.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 154,
+              "name": "WakfuGrandeVagueTome2-154.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-154.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 155,
+              "name": "WakfuGrandeVagueTome2-155.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-155.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 156,
+              "name": "WakfuGrandeVagueTome2-156.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-156.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 157,
+              "name": "WakfuGrandeVagueTome2-157.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-157.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 158,
+              "name": "WakfuGrandeVagueTome2-158.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-158.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 159,
+              "name": "WakfuGrandeVagueTome2-159.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-159.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 160,
+              "name": "WakfuGrandeVagueTome2-160.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-160.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 161,
+              "name": "WakfuGrandeVagueTome2-161.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-161.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 162,
+              "name": "WakfuGrandeVagueTome2-162.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-162.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 163,
+              "name": "WakfuGrandeVagueTome2-163.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-163.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 164,
+              "name": "WakfuGrandeVagueTome2-164.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-164.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 165,
+              "name": "WakfuGrandeVagueTome2-165.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-165.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 166,
+              "name": "WakfuGrandeVagueTome2-166.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-166.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 167,
+              "name": "WakfuGrandeVagueTome2-167.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-167.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 168,
+              "name": "WakfuGrandeVagueTome2-168.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-168.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 169,
+              "name": "WakfuGrandeVagueTome2-169.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-169.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 170,
+              "name": "WakfuGrandeVagueTome2-170.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-170.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 171,
+              "name": "WakfuGrandeVagueTome2-171.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-171.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 172,
+              "name": "WakfuGrandeVagueTome2-172.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-172.webp",
+              "width": 1200,
+              "height": 939
+            },
+            {
+              "index": 173,
+              "name": "WakfuGrandeVagueTome2-173.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-173.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 174,
+              "name": "WakfuGrandeVagueTome2-174.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-174.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 175,
+              "name": "WakfuGrandeVagueTome2-175.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-175.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 176,
+              "name": "WakfuGrandeVagueTome2-176.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-176.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 177,
+              "name": "WakfuGrandeVagueTome2-177.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-177.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 178,
+              "name": "WakfuGrandeVagueTome2-178.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-178.webp",
+              "width": 1200,
+              "height": 1878
+            },
+            {
+              "index": 179,
+              "name": "WakfuGrandeVagueTome2-179.webp",
+              "src": "media/wakfu-la-grande-vague/tome-2/WakfuGrandeVagueTome2-179.webp",
+              "width": 1200,
+              "height": 1878
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
